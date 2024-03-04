@@ -6,7 +6,7 @@ let changeSymbol = "t";
 let result = "";
 
 for (let i = 0; i < sentence.length; i++) {
-    result += changeSymbol.includes(sentence[i].toLowerCase())? "*" : sentence[i];
+    result += changeSymbol.includes(sentence[i].toLowerCase()) ? "*" : sentence[i];
 }
 
 console.log(result);

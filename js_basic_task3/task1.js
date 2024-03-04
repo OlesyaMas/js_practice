@@ -8,7 +8,7 @@ let result = "";
 for (let i = 0; i < sentence.length; i++) {
     if (vowels.includes(sentence[i].toLowerCase())) {
         result += "*";
-    } else{
+    } else {
         result += sentence[i];
     }
 }
